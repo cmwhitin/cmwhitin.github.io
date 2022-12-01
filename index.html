@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>Browsing by voice</title>
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
     <div id="interactables">
@@ -12,11 +13,14 @@
     <a href="https://www.hamilton.edu" target="_blank">Hamilton</a><br />
     <img
       id="dog"
-      class="on"
+      class="off"
       src="dog.jpg"
       alt="A golden retreiver lying down"
     />
     <button onclick="showDog();">Dog</button>
+    <label for="myInput">Alert Input:</label>
+    <input type="text" id="myInput" name="myInput" />
+    <button>Alert Me!</button>
     <script src="functions.js"></script>
     <noscript>You need to enable JavaScript to view the full site.</noscript>
   </body>
