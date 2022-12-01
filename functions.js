@@ -14,5 +14,6 @@ function showDog() {
 function showAlert() {
   const text = document.getElementById("myInput").value;
   window.alert(text);
+  console.log("dskfaksldjaklsjd");
   document.getElementById("myInput").value = "";
 }
