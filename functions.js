@@ -3,11 +3,11 @@
 function showDog() {
   console.log("tried");
   const dog_img = document.getElementById("dog");
-  if (dog_img.className == "on") {
-    document.getElementById("dog").style.display("none");
-    document.getElementById("dog").className = "off";
+  if (dog_img.className === "on") {
+    dog_img.style.display = "none";
+    dog_img.className = "off";
   } else {
-    document.getElementById("dog").style.display("block");
-    document.getElementById("dog").className = "on";
+    dog_img.style.display = "block";
+    dog_img.className = "on";
   }
 }
