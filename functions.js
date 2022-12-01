@@ -1,4 +1,5 @@
 "use strict";
+
 function showDog() {
   const dog_img = document.getElementById("dog");
   if (dog_img.className === "on") {
