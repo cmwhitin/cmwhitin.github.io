@@ -12,7 +12,6 @@ function showDog() {
 
 function showAlert() {
   const text = document.getElementById("myInput").value;
-  console.log(text);
   window.alert(text);
-  document.getElementById("myInput").reset();
+  document.getElementById("myInput").value = "";
 }
